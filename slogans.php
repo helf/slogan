@@ -1,6 +1,6 @@
 <?php
     //forbindelse
-    $forbindelse = mysqli_connect("helf-kea.dk.mysql","helf_kea_dk","helf_kea_dk","helf_kea_dk");
+    $forbindelse = mysqli_connect("x","x","x","x");
     if($forbindelse->connect_error){
         die("Ingen databaseforbindelse ".$forbindelse->connect_error);
     }
